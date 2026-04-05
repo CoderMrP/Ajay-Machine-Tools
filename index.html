@@ -1,0 +1,393 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ajay Machine Tools | Powder Coating & Industrial Equipment</title>
+    <meta name="description" content="Ajay Machine Tools is a leading manufacturer of powder coating machinery and industrial engineering equipment based in Rohtak, Haryana, handling plant setup, custom machinery, and more.">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;800&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <!-- FontAwesome for Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="styles/main.css">
+</head>
+<body>
+
+    <!-- Floating Contacts -->
+    <a href="https://wa.me/919466749456" class="floating-whatsapp" target="_blank" aria-label="Chat on WhatsApp">
+        <i class="fab fa-whatsapp"></i>
+    </a>
+    
+    <button class="floating-enquiry" id="openEnquiryBtn">
+        <i class="fas fa-envelope"></i> <span>Enquiry</span>
+    </button>
+
+    <!-- Enquiry Modal -->
+    <div class="modal-overlay" id="enquiryModal">
+        <div class="modal-content">
+            <button class="close-modal" id="closeEnquiryBtn">&times;</button>
+            <h3>Request an Enquiry</h3>
+            <p>Fill out the form below and we will get back to you shortly.</p>
+            <form>
+                <div class="form-group">
+                    <label>Name</label>
+                    <input type="text" placeholder="Your Name" required>
+                </div>
+                <div class="form-group">
+                    <label>Phone</label>
+                    <input type="tel" placeholder="Your Phone Number" required>
+                </div>
+                <div class="form-group">
+                    <label>Message / Requirements</label>
+                    <textarea rows="4" placeholder="How can we help you?" required></textarea>
+                </div>
+                <button type="submit" class="btn btn-primary w-100">Send Enquiry</button>
+            </form>
+        </div>
+    </div>
+
+    <!-- Navigation -->
+    <header class="navbar" id="navbar">
+        <div class="container nav-container">
+            <a href="#home" class="logo">
+                <span class="logo-bold">AJAY</span><span class="logo-light">MACHINE TOOLS</span>
+            </a>
+            <nav class="nav-menu" id="navMenu">
+                <ul class="nav-list">
+                    <li><a href="#home" class="nav-link">Home</a></li>
+                    <li><a href="#about" class="nav-link">About Us</a></li>
+                    <li><a href="#products" class="nav-link">Products</a></li>
+                    <li><a href="#services" class="nav-link">Services</a></li>
+                    <li><a href="#contact" class="nav-link">Contact</a></li>
+                </ul>
+            </nav>
+            <div class="hamburger" id="hamburger">
+                <i class="fas fa-bars"></i>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-overlay"></div>
+        <div class="container hero-container">
+            <div class="hero-content reveal">
+                <div class="badge">EST. 1997 | 25+ YEARS EXPERIENCE</div>
+                <h1 class="hero-title">Manufacturer of Powder Coating Machinery & Industrial Equipment</h1>
+                <p class="hero-subtitle">Based in Rohtak, Haryana, providing reliable and customized industrial machinery solutions for manufacturing industries across India.</p>
+                <div class="hero-actions">
+                    <a href="#products" class="btn btn-primary">Explore Products</a>
+                    <a href="#contact" class="btn btn-outline">Contact Us</a>
+                </div>
+                <div class="hero-highlights">
+                    <div class="highlight-item">
+                        <i class="fas fa-industry"></i>
+                        <span>Custom Machinery</span>
+                    </div>
+                    <div class="highlight-item">
+                        <i class="fas fa-cogs"></i>
+                        <span>Powder Coating Plants</span>
+                    </div>
+                    <div class="highlight-item">
+                        <i class="fas fa-shield-alt"></i>
+                        <span>Reliable Solutions</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about section-padding">
+        <div class="container about-container">
+            <div class="about-text reveal">
+                <h2 class="section-title">About Us</h2>
+                <div class="title-line"></div>
+                <p class="lead-text">Ajay Machine Tools was established in 1997 in Rohtak, Haryana. We specialize in manufacturing powder coating machinery and industrial engineering equipment.</p>
+                <p>With decades of experience in machine manufacturing, Ajay Machine Tools focuses on delivering efficient and durable machines tailored to the needs of industrial clients. We provide complete end-to-end support, from the initial machine design to full installation and setup at your facility.</p>
+                
+                <div class="stats-container mt-4">
+                    <div class="stat-box">
+                        <div class="stat-number">25+</div>
+                        <div class="stat-label">Years of Direct Experience</div>
+                    </div>
+                    <div class="stat-box">
+                        <div class="stat-number">100%</div>
+                        <div class="stat-label">Customized Solutions</div>
+                    </div>
+                </div>
+            </div>
+            <div class="about-image reveal">
+                <img src="assets/powder_coating_plant_1775419648865.png" alt="Powder Coating Plant Setup" class="image-featured">
+                <div class="experience-badge">
+                    <span class="exp-years">25+</span>
+                    <span class="exp-text">Years of Excellence</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Why Choose Us Section -->
+    <section class="why-choose-us section-padding">
+        <div class="container">
+            <div class="text-center reveal">
+                <h2 class="section-title">Why Choose Us</h2>
+                <div class="title-line mx-auto"></div>
+                <p class="section-desc">We deliver unparalleled quality and support to ensure your manufacturing processes run smoothly.</p>
+            </div>
+            <div class="features-grid">
+                <div class="feature-card reveal-delay-1">
+                    <div class="feature-icon"><i class="fas fa-clock"></i></div>
+                    <h3>25+ Years Experience</h3>
+                    <p>Decades of deep industry knowledge ensuring you get the most efficient and reliable machinery solutions.</p>
+                </div>
+                <div class="feature-card reveal-delay-2">
+                    <div class="feature-icon"><i class="fas fa-check-double"></i></div>
+                    <h3>Reliable Machines</h3>
+                    <p>Built with high-quality components and heavy-duty materials designed to withstand rigorous industrial use.</p>
+                </div>
+                <div class="feature-card reveal-delay-3">
+                    <div class="feature-icon"><i class="fas fa-tools"></i></div>
+                    <h3>Customized Solutions</h3>
+                    <p>Tailored machinery designs that perfectly align with your specific manufacturing needs and workspace.</p>
+                </div>
+                <div class="feature-card reveal-delay-4">
+                    <div class="feature-icon"><i class="fas fa-lightbulb"></i></div>
+                    <h3>Technical Expertise</h3>
+                    <p>Strong engineering backing to provide seamless support from design to installation and maintenance.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Products Section -->
+    <section id="products" class="products section-padding bg-dark">
+        <div class="container">
+            <div class="text-center reveal">
+                <h2 class="section-title text-white">Our Products</h2>
+                <div class="title-line mx-auto bg-primary"></div>
+                <p class="section-desc text-light">Discover our wide range of powder coating machinery and industrial engineering equipment.</p>
+                <div class="mt-4 mb-5">
+                    <button class="btn btn-outline-primary filter-btn active" data-filter="all">All Products</button>
+                    <button class="btn btn-outline-primary filter-btn" data-filter="powder">Powder Coating Machinery</button>
+                    <button class="btn btn-outline-primary filter-btn" data-filter="industrial">Industrial Engineering</button>
+                </div>
+            </div>
+
+            <div class="product-grid">
+                <!-- Powder Coating Products -->
+                <div class="product-card reveal product-item powder">
+                    <div class="product-card-inner">
+                        <div class="product-icon"><i class="fas fa-industry"></i></div>
+                        <h3>Powder Coating Plant</h3>
+                        <p>Complete setup for high-efficiency powder coating operations.</p>
+                    </div>
+                </div>
+                <div class="product-card reveal product-item powder">
+                    <div class="product-card-inner">
+                        <div class="product-icon"><i class="fas fa-fan"></i></div>
+                        <h3>High Speed Premixer</h3>
+                        <p>Optimized for homogeneous mixing of materials before processing.</p>
+                    </div>
+                </div>
+                <div class="product-card reveal product-item powder">
+                    <div class="product-card-inner">
+                        <div class="product-icon"><i class="fas fa-cog"></i></div>
+                        <h3>Screw Extruder</h3>
+                        <p>Durable and powerful standard screw extruders for powder production.</p>
+                    </div>
+                </div>
+                <div class="product-card reveal product-item powder">
+                    <div class="product-card-inner">
+                        <div class="product-icon"><i class="fas fa-cogs"></i></div>
+                        <h3>Twin Screw Extruder</h3>
+                        <p>Advanced extrusion capabilities for higher throughput and quality.</p>
+                    </div>
+                </div>
+                <div class="product-card reveal product-item powder">
+                    <div class="product-card-inner">
+                        <div class="product-icon"><i class="fas fa-smog"></i></div>
+                        <h3>Powder Grinder Mill</h3>
+                        <p>Precision grinding for the finest particle sizes in coating applications.</p>
+                    </div>
+                </div>
+                <div class="product-card reveal product-item powder">
+                    <div class="product-card-inner">
+                        <div class="product-icon"><i class="fas fa-wind"></i></div>
+                        <h3>Air Classifying Mill</h3>
+                        <p>Simultaneous size reduction and classification for narrow particle distributions.</p>
+                    </div>
+                </div>
+                <div class="product-card reveal product-item powder">
+                    <div class="product-card-inner">
+                        <div class="product-icon"><i class="fas fa-water"></i></div>
+                        <h3>Vibro Sifter</h3>
+                        <p>Efficient separation and grading of powder particles.</p>
+                    </div>
+                </div>
+                <div class="product-card reveal product-item powder">
+                    <div class="product-card-inner">
+                        <div class="product-icon"><i class="fas fa-blender"></i></div>
+                        <h3>Powder Coating Blender</h3>
+                        <p>Ensuring perfect consistency and blend of your powder formulations.</p>
+                    </div>
+                </div>
+
+                <!-- Industrial Engineering Products -->
+                <div class="product-card reveal product-item industrial">
+                    <div class="product-img-featured">
+                        <img src="assets/grinding_machine_1775419756518.png" alt="Grinding Machine">
+                    </div>
+                    <div class="product-card-inner">
+                        <div class="product-icon"><i class="fas fa-wrench"></i></div>
+                        <h3>Grinding Machines</h3>
+                        <p>Heavy-duty, precision CNC grinding machinery for industrial fabrication.</p>
+                    </div>
+                </div>
+                <div class="product-card reveal product-item industrial">
+                    <div class="product-card-inner">
+                        <div class="product-icon"><i class="fas fa-hammer"></i></div>
+                        <h3>Connecting Rod Boring Machine</h3>
+                        <p>Accuracy-driven machines tailored for specific engineering applications.</p>
+                    </div>
+                </div>
+                <div class="product-card reveal product-item industrial">
+                    <div class="product-card-inner">
+                        <div class="product-icon"><i class="fas fa-tools"></i></div>
+                        <h3>Boring Machines</h3>
+                        <p>Robust and durable boring machines built for exact precision.</p>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="text-center mt-5">
+                <a href="#" class="btn btn-outline-primary"><i class="fas fa-file-pdf"></i> Download Product Catalog</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="services section-padding">
+        <div class="container text-center reveal">
+            <h2 class="section-title">Our Services</h2>
+            <div class="title-line mx-auto"></div>
+            <p class="section-desc">Comprehensive support and services for all your industrial machinery needs.</p>
+            
+            <div class="services-track mt-5">
+                <div class="service-box">
+                    <div class="service-icon"><i class="fas fa-drafting-compass"></i></div>
+                    <h3>Custom Machine Manufacturing</h3>
+                    <p>We build machines from the ground up, customized entirely to fit your production line requirements.</p>
+                </div>
+                <div class="service-box">
+                    <div class="service-icon"><i class="fas fa-industry"></i></div>
+                    <h3>Powder Coating Plant Setup</h3>
+                    <p>Complete end-to-end setup of powder coating facilities, ensuring maximum efficiency.</p>
+                </div>
+                <div class="service-box">
+                    <div class="service-icon"><i class="fas fa-truck-loading"></i></div>
+                    <h3>Machinery Installation</h3>
+                    <p>Professional delivery and installation of all industrial machinery on your premises.</p>
+                </div>
+                <div class="service-box">
+                    <div class="service-icon"><i class="fas fa-headset"></i></div>
+                    <h3>Maintenance & Support</h3>
+                    <p>Ongoing technical support, servicing, and maintenance to minimize downtime.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact section-padding bg-light">
+        <div class="container">
+            <div class="contact-grid">
+                <div class="contact-info reveal">
+                    <h2 class="section-title">Get in Touch</h2>
+                    <div class="title-line"></div>
+                    <p class="mb-4">Whether you're looking to set up a new plant, request custom machinery, or need support with your existing equipment, we're here to help.</p>
+                    
+                    <div class="contact-details">
+                        <div class="contact-item">
+                            <div class="contact-icon"><i class="fas fa-map-marker-alt"></i></div>
+                            <div class="contact-text">
+                                <h4>Company Address</h4>
+                                <p><strong>Ajay Machine Tools</strong><br>
+                                139, HSIIDC Industrial Area<br>
+                                Hissar Road, Kutana Bhavani Link Road<br>
+                                Rohtak – 124001, Haryana, India</p>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <div class="contact-icon"><i class="fas fa-phone-alt"></i></div>
+                            <div class="contact-text">
+                                <h4>Phone</h4>
+                                <p><a href="tel:+919466749456">+91 94667 49456</a></p>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <div class="contact-icon"><i class="fas fa-file-invoice-dollar"></i></div>
+                            <div class="contact-text">
+                                <h4>GST Number</h4>
+                                <p>06ABOPS1265Q1ZV</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="contact-form-wrapper reveal">
+                    <div class="card form-card">
+                        <h3>Send us a message</h3>
+                        <form class="interaction-form">
+                            <div class="form-group">
+                                <label>Your Name</label>
+                                <input type="text" placeholder="Enter your name" required>
+                            </div>
+                            <div class="form-group">
+                                <label>Phone Number</label>
+                                <input type="tel" placeholder="Enter your phone number" required>
+                            </div>
+                            <div class="form-group">
+                                <label>Requirement Details</label>
+                                <textarea rows="4" placeholder="Tell us what machine or service you are looking for..." required></textarea>
+                            </div>
+                            <button type="submit" class="btn btn-primary w-100">Submit Enquiry</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-brand">
+                    <h2>Ajay Machine Tools</h2>
+                    <p>Your trusted partner for powder coating machinery and industrial engineering equipment since 1997.</p>
+                </div>
+                <div class="footer-links">
+                    <h3>Quick Links</h3>
+                    <ul>
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#about">About Us</a></li>
+                        <li><a href="#products">Products</a></li>
+                        <li><a href="#services">Services</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; <span id="currentYear"></span> Ajay Machine Tools. All Rights Reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Custom JS -->
+    <script src="scripts/main.js"></script>
+</body>
+</html>
